@@ -35,6 +35,10 @@ export class ProfilePage {
           }
        });
     }
+    else {
+      this.navCtrl.setRoot('HomePage');
+    }
+
   }
 
   getImageIfExists() {
