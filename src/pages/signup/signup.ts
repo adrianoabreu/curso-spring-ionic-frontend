@@ -68,6 +68,7 @@ export class SignupPage {
   }
 
   signupUser() {
+    console.log(this.formGroup.value);
     this.clienteService.insert(this.formGroup.value)
       .subscribe(response => {
         this.showInsertOk();
