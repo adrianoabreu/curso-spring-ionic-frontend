@@ -38,7 +38,9 @@
     "ionicons": "3.0.0",
     "rxjs": "5.5.11",
     "sw-toolbox": "3.6.0",
-    "zone.js": "0.8.29"
+    "zone.js": "0.8.29",
+    "cordova-browser": "5.0.3",
+    "ionic-plugin-keyboard": "^2.2.1"
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.2.4",
@@ -53,7 +55,11 @@
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {}
-    }
+      "cordova-plugin-ionic-keyboard": {},
+      "ionic-plugin-keyboard": {}
+    },
+    "platforms": [
+      "browser"
+    ]
   }
 }
